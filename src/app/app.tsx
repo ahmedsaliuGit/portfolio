@@ -9,7 +9,7 @@ import {
 
 function App() {
   return (
-    <main className="flex flex-col items-center justify-center pt-12">
+    <main className="flex flex-col items-center justify-center pt-12 px-0">
       <Hero />
       <Skills />
       <Projects />

@@ -8,7 +8,9 @@ const HeroSection = () => (
         src={ProfilePic}
         alt="Ahmed Saliu"
       />
-      <h1 className="text-4xl font-bold text-white mt-4">Ahmed Saliu</h1>
+      <h1 className="text-[3rem] font-bold text-white mt-4 bg-[url('assets/images/jess-bailey-unsplash.jpg')] bg-norepeat bg-cover bg-clip-text text-transparent">
+        Ahmed Saliu
+      </h1>
       <p className="text-lg text-gray-300 mt-2">
         Frontend Engineer | Javascript | React.js | Tailwind CSS | UI/UX
         Enthusiast
