@@ -1,3 +1,5 @@
+import HubspotContactForm from "../form/hubspotcontactform";
+
 const ContactSection = () => (
   <section className="py-6 bg-transparent">
     <div className="container mx-auto text-center">
@@ -77,6 +79,10 @@ const ContactSection = () => (
             ></path>
           </svg>
         </a>
+      </div>
+
+      <div className="mt-8 flex justify-center space-x-6 bg-white p-4">
+        <HubspotContactForm />
       </div>
     </div>
   </section>
